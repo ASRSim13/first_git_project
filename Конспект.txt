@@ -7,4 +7,7 @@
 Привязать удалённый репозиторий к локальному — git remote add origin git@github.com:%ИМЯ_АККАУНТА%/first-project.git
 Убедиться, что репозитории связаны, — git remote -v
 Отправить изменения на удалённый репозиторий — git push , в первый раз надо указать ветку Отправить изменения на удалённый репозиторий — git push -u origin master
-Вывести лог коммитов  - git log
+Вывести лог коммитов  - git log  (--oneline - в одну строку)
+отключить представление имен файлов в кодировке Unicode в виде кодов символов git config core.quotepath
+HEAD - указатель на последний коммит
+статусы файлов - untracked/tracked, staged и modified. modified+git add = staged
